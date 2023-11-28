@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95vw;
+  padding-right: 15rem;
+  background-color: #42446e;
+  z-index: 9999;
+}
+
+header .logo img {
+  width: 7rem;
+  height: 5rem;
+}
+
+header nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav a:hover {
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+header nav .active {
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+section .container1 {
+  padding: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section .container1 h1 {
+  color: #42446e;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+section .container1 h1 span {
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+section .container1 .my-picture {
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  border-radius: 50%;
+}
+
+section .container1 .my-picture img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border-width: 0.4rem;
+  border-style: solid;
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-color: transparent;
+}
+
+section .container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+section .container2 h2 {
+  color: #42446e;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+section .container2 p {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+section .container2 .techs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .container2 .techs img {
+  width: 5rem;
+  height: 5rem;
+  transition: all 0.3s linear;
+}
+
+section .container2 .techs img:hover {
+  transform: scale(1.3);
+}
+
+section .container2 .techs .frontend {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+section .container2 .techs .backend {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+section .container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+section .container3 h2 {
+  color: #42446e;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+section .container3 p {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+section hr {
+  width: 90vw;
+  color: #666;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #42446e;
+}
+
+footer .part1 img {
+  width: 7rem;
+  height: 5rem;
+}
+
+footer .part2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+footer .part2 p {
+  color: #fff;
+}
+
+footer .part2 p:hover {
+  background-image: linear-gradient(
+    to right,
+    hsla(317, 88%, 48%, 1),
+    hsla(194, 100%, 50%, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+footer .part2 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .part2 .icons a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+}
+
+footer .part2 .icons a:hover {
+  color: rgb(50, 150, 250);
+}

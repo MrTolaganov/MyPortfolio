@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="m-5 text-lg-center">Contact Me</h2>
+      <form>
+        <div class="first-last m-2 row">
+          <div class="firstname col-6">
+            <label for="firstname" class="form-label"
+              >Enter your firstname</label
+            >
+            <input
+              type="text"
+              class="col-6 form-control col-6"
+              id="firstname"
+              placeholder="Otabek"
+            />
+          </div>
+          <div class="lastname col-6">
+            <label for="lastname" class="form-label">Enter your lastname</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="Tulaganov"
+            />
+          </div>
+        </div>
+        <div class="email m-3 row-cols-6">
+          <label for="email" class="form-label">Enter your email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="otabektolaganov69@gmail.com"
+          />
+        </div>
+        <div class="password m-3 row-cols-6">
+          <label for="password" class="form-label">Enter your password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="tulaganovok04"
+          />
+        </div>
+        <div class="details row">
+          <div class="date-birth col-4">
+            <label for="date-birth" class="form-label">Date of birth</label>
+            <input type="date" class="form-control" id="date-birth">
+          </div>
+          <div class="country col-4">
+            <label for="country" class="form-label">Your counrty</label>
+            <select name="counrty" id="counrty">
+                <option value="uzb">Uzbekistan</option>
+                <option value="rus">Russia</option>
+                <option value="tur">Turkey</option>
+            </select>
+          </div>
+          <div class="gender col-4">
+            <label for="male"><input type="radio" name="gender" id="male">Male</label>
+            <label for="female"><input type="radio" name="gender" id="female">Female</label>
+          </div>
+        </div>
+        <div class="submit m-3 row-cols-6">
+          <button type="submit" class="btn text-lg-center col-12">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
