@@ -56,19 +56,25 @@
         <div class="details row">
           <div class="date-birth col-4">
             <label for="date-birth" class="form-label">Date of birth</label>
-            <input type="date" class="form-control" id="date-birth">
+            <input type="date" class="form-control" id="date-birth" />
           </div>
           <div class="country col-4">
             <label for="country" class="form-label">Your counrty</label>
-            <select name="counrty" id="counrty">
+            <div class="select">
+              <select name="counrty" id="counrty" class="form-select">
                 <option value="uzb">Uzbekistan</option>
                 <option value="rus">Russia</option>
                 <option value="tur">Turkey</option>
-            </select>
+              </select>
+            </div>
           </div>
           <div class="gender col-4">
-            <label for="male"><input type="radio" name="gender" id="male">Male</label>
-            <label for="female"><input type="radio" name="gender" id="female">Female</label>
+            <label for="male" class="form-label"
+              ><input type="radio" name="gender" id="male" />Male</label
+            >
+            <label for="female" class="form-label"
+              ><input type="radio" name="gender" id="female" />Female</label
+            >
           </div>
         </div>
         <div class="submit m-3 row-cols-6">
