@@ -314,6 +314,14 @@ footer .part2 .icons a:hover {
     display: none;
   }
 
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav span {
+    margin-right: 3rem;
+  }
 
   section .container1 .heading1 {
     font-size: 2.7rem;
@@ -323,7 +331,7 @@ footer .part2 .icons a:hover {
     display: none;
   }
 
-  section .container .techs {
+  section .container2 .techs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
