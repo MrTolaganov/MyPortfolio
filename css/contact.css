@@ -1,24 +1,23 @@
 .container h2 {
-    color: #42446e;
+  color: #42446e;
 }
 
 .container a {
-    display: inline-block;
+  display: inline-block;
 }
 
-
 .container .btn1 {
-    background-color: #42446e;
-    color: #fff;
+  background-color: #42446e;
+  color: #fff;
 }
 
 .container .btn2 {
-    background-color: #fff;
-    color: #42446e;
-    border-color: #42446e;
+  background-color: #fff;
+  color: #42446e;
+  border-color: #42446e;
 }
 
 .container .btn:hover {
-    transition: all 0.2s linear;
-    transform: scaleY(1.1);
+  transition: all 0.2s linear;
+  transform: scaleY(1.1);
 }
